@@ -1,0 +1,74 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	border: 1px solid green;
+	width: 75%;
+	height: 100%;
+	margin: 0px auto;
+}
+/* common code end */
+
+/* header code start */
+header{
+	border: 1px solid tomato;
+	background: #CCCCCC;
+}
+.header-inner{
+	background: #F5F5F5;
+	padding: 40px 10px;
+}
+.header-inner h1{
+	margin: 0px 0px 10px 0px;
+	letter-spacing: 2px;
+	color: #323232;
+	font-weight: 400;
+	font-size: 38px;
+	font-family: century gothic, sans serif;
+}
+.header-inner h1 a{
+	color: #00C6F0;
+	text-decoration: none;
+}
+.header-inner h1 a:hover{
+	color: tomato;
+}
+.header-inner p{
+	margin: 0px;
+	color: #999;
+	font-size: 15px;
+	font-family: century gothic, sans serif;
+}
+/* header code end */
+
+/* nav code start */
+nav{
+	border: 1px solid tomato;
+	height: 50px;
+}
+/* nav code end */
+
+/* banner code start */
+.banner-section{
+	border: 1px solid tomato;
+	height: 200px;
+}
+/* banner code end */
+
+/* main code start */
+main{
+	border: 1px solid tomato;
+	height: 600px;
+}
+/* main code end */
+
+/* footer code start */
+footer{
+	border: 1px solid tomato;
+	height: 50px;
+}
+/* footer code end */
